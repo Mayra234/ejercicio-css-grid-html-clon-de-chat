@@ -14,6 +14,10 @@ body {
   justify-content: center;
   align-items: center;
 }
+@font-face {
+  font-family: 'Roboto';
+  src: url(assets/fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf);
+}
 /* pantalla completa del chat */
 .container {
   background: brown;
@@ -38,6 +42,23 @@ body {
   color: white;
   background: black;
 }
+.vitaly {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.icon-vitaly {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #32acdf;
+  font-size: 11px;
+  color: white;
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* contenedor de los chats */
 .content {
   background: blueviolet;
@@ -59,8 +80,25 @@ body {
   border: solid 1px rgb(200, 198, 198);
   padding-left: 20px;
 }
+/* Pantalla derecha del chat */
 .screenChat {
   background: cornsilk;
+}
+.bar-option-chat {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+}
+.name-chat {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.avatar {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
 }
 .search {
   position: relative;
